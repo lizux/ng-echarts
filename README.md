@@ -18,8 +18,10 @@
         date: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
         data: [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
     }]
+    
     // 饼图数据
     $scope.dataPie = [{value: 335,name: '直接访问'}, {value: 310,name: '邮件营销'}, {value: 234,name: '联盟广告'}, {value: 135,name: '视频广告'}, {value: 1548,name: '搜索引擎'}]
+    
     // 地图数据
     $scope.ajaxDataMap = [{ name: 'people', data: [{ name: '北京', value: Math.round(Math.random() * 1000) }, { name: '天津', value: Math.round(Math.random() * 1000) }, { name: '上海', value: Math.round(Math.random() * 1000) }, { name: '重庆', value: Math.round(Math.random() * 1000) }]}]
     ```
